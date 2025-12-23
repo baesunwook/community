@@ -380,33 +380,12 @@ export default function SuwonChancePage() {
                     </p>
                 </section>
 
-                {/* 태그 (SEO용) */}
+                {/* 태그 */}
                 <footer className="mt-12 pt-6 border-t border-gray-300">
                     <div className="flex flex-wrap gap-2">
                         <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-bold">
                             #수원찬스돔나이트
                         </span>
-                        <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-bold">
-                            #수원찬스돔나이트강호동
-                        </span>
-                        <span className="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm">
-                            #수원찬스돔나이트예약
-                        </span>
-                        <span className="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm">
-                            #수원찬스돔나이트후기
-                        </span>
-                        <span className="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm">
-                            #수원찬스돔나이트주대
-                        </span>
-                        <span className="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm">
-                            #수원찬스돔나이트부킹
-                        </span>
-                        <span className="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm">
-                            #수원찬스돔나이트위치
-                        </span>
-                        <span className="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm">#수원찬스</span>
-                        <span className="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm">#강호동</span>
-                        <span className="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm">#수원나이트</span>
                     </div>
                 </footer>
             </article>
