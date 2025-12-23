@@ -8,21 +8,7 @@ export const metadata = {
     openGraph: {
         title: '수원찬스돔나이트 강호동 후기 | 예약 가이드',
         description: '수원찬스돔나이트 강호동 실제 이용 후기. 예약부터 주대까지 완벽 정리!',
-        images: [
-            {
-                url: '/images/main-thumb.jpg',
-                width: 1200,
-                height: 630,
-                alt: '수원찬스 강호동'
-            }
-        ],
         type: 'article'
-    },
-    twitter: {
-        card: 'summary_large_image',
-        title: '수원찬스돔나이트 강호동 후기',
-        description: '수원찬스돔나이트 강호동 실제 이용 후기',
-        images: ['/images/main-thumb.jpg']
     },
     other: {
         'naver-site-verification': '08ebef77790275e1763fc25ad8d6afa5989d74cd'
