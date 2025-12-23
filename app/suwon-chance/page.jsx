@@ -108,20 +108,6 @@ export default function SuwonChancePage() {
                     </p>
                 </section>
 
-                {/* 이미지 1 */}
-                <div className="my-10 rounded-lg overflow-hidden shadow-xl">
-                    <Image
-                        src="/images/model1.jpg"
-                        alt="수원나이트 즐거운 분위기"
-                        width={800}
-                        height={600}
-                        className="w-full h-auto"
-                        sizes="(max-width: 768px) 100vw, 800px"
-                    />
-                    <p className="text-center text-sm text-gray-500 mt-2 px-4">
-                        ▲ 수원나이트 즐거운 분위기 (이미지 출처: 실제 방문 촬영)
-                    </p>
-                </div>
 
                 {/* 본문 2 - 입장 및 룸 배정 (키워드 1개) */}
                 <section className="mb-10">
@@ -162,18 +148,6 @@ export default function SuwonChancePage() {
                     </p>
                 </section>
 
-                {/* 이미지 2 */}
-                <div className="my-10 rounded-lg overflow-hidden shadow-xl">
-                    <Image
-                        src="/images/model2.jpg"
-                        alt="수원찬스 부킹 현장"
-                        width={800}
-                        height={600}
-                        className="w-full h-auto"
-                        sizes="(max-width: 768px) 100vw, 800px"
-                    />
-                    <p className="text-center text-sm text-gray-500 mt-2 px-4">▲ 수원찬스 부킹 현장 분위기</p>
-                </div>
 
                 {/* 본문 4 - 주대 및 가격 정보 (키워드 1개) */}
                 <section className="mb-10">
@@ -221,18 +195,6 @@ export default function SuwonChancePage() {
                     </p>
                 </section>
 
-                {/* 이미지 3 */}
-                <div className="my-10 rounded-lg overflow-hidden shadow-xl">
-                    <Image
-                        src="/images/model3.jpg"
-                        alt="수원찬스돔나이트 내부 분위기"
-                        width={800}
-                        height={600}
-                        className="w-full h-auto"
-                        sizes="(max-width: 768px) 100vw, 800px"
-                    />
-                    <p className="text-center text-sm text-gray-500 mt-2 px-4">▲ 수원찬스돔나이트 내부 분위기</p>
-                </div>
 
                 {/* 본문 6 - 접근성 및 위치 */}
                 <section className="mb-10">
