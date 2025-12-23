@@ -6,6 +6,9 @@ export const metadata = {
     title: {
         template: '%s | Netlify',
         default: 'Netlify Starter'
+    },
+    verification: {
+        naver: '08ebef77790275e1763fc25ad8d6afa5989d74cd'
     }
 };
 

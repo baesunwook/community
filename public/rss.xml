@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Netlify Platform Starter – Next.js</title>
+    <link>https://ommunity.netlify.app</link>
+    <description>Deploy the latest version of Next.js on Netlify in seconds. No configuration or custom adapter required.</description>
+    <language>ko</language>
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://ommunity.netlify.app/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title>Netlify Platform Starter – Next.js</title>
+      <link>https://ommunity.netlify.app</link>
+      <description>Deploy the latest version of Next.js — including Turbopack, React Compiler, and the new caching APIs — on Netlify in seconds.</description>
+      <pubDate>Mon, 23 Dec 2025 14:53:24 GMT</pubDate>
+      <guid>https://ommunity.netlify.app</guid>
+    </item>
+
+    <item>
+      <title>수원 찬스 - 홍보용 랜딩 페이지</title>
+      <link>https://ommunity.netlify.app/suwon-chance</link>
+      <description>수원 찬스 서비스 홍보용 랜딩 페이지입니다. 상담 문의: 010-9354-1323</description>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 GMT</pubDate>
+      <guid>https://ommunity.netlify.app/suwon-chance</guid>
+    </item>
+
+    <item>
+      <title>Netlify Edge Functions</title>
+      <link>https://ommunity.netlify.app/edge</link>
+      <description>Netlify Edge Functions with Next.js</description>
+      <pubDate>Mon, 23 Dec 2025 14:53:24 GMT</pubDate>
+      <guid>https://ommunity.netlify.app/edge</guid>
+    </item>
+
+    <item>
+      <title>Netlify Image CDN</title>
+      <link>https://ommunity.netlify.app/image-cdn</link>
+      <description>Netlify Image CDN with Next.js</description>
+      <pubDate>Mon, 23 Dec 2025 14:53:24 GMT</pubDate>
+      <guid>https://ommunity.netlify.app/image-cdn</guid>
+    </item>
+  </channel>
+</rss>
+
