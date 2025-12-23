@@ -1,4 +1,3 @@
-import Image from 'next/image';
 
 // 네이버 SEO 최적화 메타데이터
 export const metadata = {
@@ -37,16 +36,16 @@ export const metadata = {
 export default function SuwonChancePage() {
     return (
         <main className="min-h-screen bg-gray-50">
-            {/* 상단 메인 썸네일 이미지 - 네이버 대표 이미지 */}
-            <section className="w-full relative h-[400px] md:h-[630px] bg-gradient-to-br from-pink-500 to-pink-600">
-                <Image
-                    src="/images/main-thumb.jpg"
-                    alt="수원찬스 강호동"
-                    fill
-                    priority
-                    className="object-contain"
-                    sizes="100vw"
-                />
+            {/* 상단 헤더 */}
+            <section className="w-full bg-gradient-to-br from-pink-500 to-pink-600 py-16 md:py-24">
+                <div className="container mx-auto px-4 text-center">
+                    <h2 className="text-4xl md:text-6xl font-black text-white mb-4 tracking-tight">
+                        수원찬스<br />강호동
+                    </h2>
+                    <p className="text-white text-lg md:text-xl font-medium">
+                        010-9354-1323
+                    </p>
+                </div>
             </section>
 
             {/* 전화 걸기 버튼 (상단 고정) */}
@@ -91,18 +90,6 @@ export default function SuwonChancePage() {
                     </p>
                 </section>
 
-                {/* 첫 번째 CTA */}
-                <div className="my-8 p-6 bg-gradient-to-r from-red-50 to-pink-50 rounded-xl border-2 border-red-200">
-                    <p className="text-center text-lg font-bold text-gray-800 mb-4">
-                        💡 먼저 연락하고 싶으신 분들은 아래 번호로!
-                    </p>
-                    <a
-                        href="tel:01093541323"
-                        className="block w-full max-w-md mx-auto bg-red-600 text-white text-center py-4 px-6 rounded-full font-bold text-xl shadow-lg hover:bg-red-700 transition-all duration-300"
-                    >
-                        📞 010-9354-1323 (강호동)
-                    </a>
-                </div>
 
                 {/* 본문 1 - 첫인상 (키워드 1개) */}
                 <section className="mb-10">
@@ -214,19 +201,6 @@ export default function SuwonChancePage() {
                     </p>
                 </section>
 
-                {/* 중간 CTA */}
-                <div className="my-10 p-8 bg-gradient-to-br from-red-600 to-pink-600 rounded-2xl shadow-2xl text-center">
-                    <p className="text-white text-xl md:text-2xl font-bold mb-4">🔥 지금 바로 강호동에게 전화하세요!</p>
-                    <p className="text-white text-base mb-6">
-                        주말 예약은 빨리 마감됩니다. 미리 연락하셔서 자리 확보하세요!
-                    </p>
-                    <a
-                        href="tel:01093541323"
-                        className="inline-block bg-white text-red-600 py-4 px-8 rounded-full font-bold text-xl shadow-lg hover:bg-gray-100 transition-all duration-300 hover:scale-110"
-                    >
-                        📞 010-9354-1323 클릭하여 전화하기
-                    </a>
-                </div>
 
                 {/* 본문 5 - 분위기 및 시설 */}
                 <section className="mb-10">
@@ -345,24 +319,6 @@ export default function SuwonChancePage() {
                     </div>
                 </section>
 
-                {/* 마지막 CTA */}
-                <section className="my-12 p-10 bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-2xl text-center">
-                    <h2 className="text-white text-2xl md:text-4xl font-bold mb-4">🎉 강호동 예약하기</h2>
-                    <p className="text-gray-300 text-base md:text-lg mb-6">
-                        지금 바로 전화해서 예약하세요!
-                        <br />
-                        주말은 빠르게 마감되니 서두르세요! 💨
-                    </p>
-                    <a
-                        href="tel:01093541323"
-                        className="inline-block bg-red-600 text-white py-5 px-10 rounded-full font-bold text-xl md:text-2xl shadow-lg hover:bg-red-700 transition-all duration-300 hover:scale-110 mb-4"
-                    >
-                        📞 010-9354-1323
-                    </a>
-                    <p className="text-gray-400 text-sm mt-4">
-                        ※ 통화 시 "후기 보고 연락드렸어요" 하시면 더 친절하게 안내해드립니다!
-                    </p>
-                </section>
 
                 {/* 마무리 - 결론 (키워드 2개) */}
                 <section className="mb-8 pt-8 border-t-2 border-gray-200">
@@ -390,15 +346,6 @@ export default function SuwonChancePage() {
                 </footer>
             </article>
 
-            {/* 하단 고정 전화 버튼 (모바일용) */}
-            <div className="fixed bottom-0 left-0 right-0 z-40 md:hidden">
-                <a
-                    href="tel:01093541323"
-                    className="block w-full bg-red-600 text-white text-center py-5 font-bold text-lg shadow-2xl"
-                >
-                    📞 지금 바로 전화하기: 010-9354-1323
-                </a>
-            </div>
         </main>
     );
 }
