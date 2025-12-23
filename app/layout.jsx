@@ -7,8 +7,8 @@ export const metadata = {
         template: '%s | Netlify',
         default: 'Netlify Starter'
     },
-    verification: {
-        naver: '08ebef77790275e1763fc25ad8d6afa5989d74cd'
+    other: {
+        'naver-site-verification': '08ebef77790275e1763fc25ad8d6afa5989d74cd'
     }
 };
 
